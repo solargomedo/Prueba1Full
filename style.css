@@ -170,7 +170,7 @@ header .search {
 
 .card:hover { 
   cursor: pointer; 
-  border: 0.125em solid rgb(124, 0, 182); 
+  border: 0.125em solid rgb(23, 223, 16); 
   transform: rotateY(180deg); 
 }
 
@@ -201,14 +201,16 @@ footer {
 .form-content {
   width: 100%;
   max-width: 450px;
-  background-color: #0A0A0A;
+  background-color: #222222;
   padding: 50px 60px 70px;
   text-align: center;
   border-radius: 25px;
   margin: 50px auto;
+  border: 1px solid #15eb0d;
+  
 }
 
-/* Título registrate*/
+
 .form-content h1 {
   font-size: 30px;
   margin-bottom: 60px;
@@ -229,12 +231,12 @@ footer {
   transition: 3s;
 }
 
-/* Grupo de inputs */
+
 .input-group {
   height: 250px;
 }
 
-/* Campo individual */
+
 .input-field {
   background-color: #ffffff;
   margin: 10px 0 15px 0; 
@@ -246,7 +248,7 @@ footer {
   color: rgb(255, 255, 255);
 }
 
-/* Inputs */
+
 input {
   width: 100%;
   background: transparent;
@@ -255,6 +257,9 @@ input {
   padding: 18px 15px;
   color: black;
 }
+
+
+
 
 .btn-field {
   width: 100%;
@@ -275,7 +280,7 @@ input {
     cursor: pointer;
 }
 
-/* Botón volver */
+
 .volver {
   flex-basis: 48%;
   font-size: 16px;
