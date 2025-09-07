@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url(img/ghil.jpg) center;
+  background: url(img/1000059933.png) center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -19,14 +19,21 @@ body {
 }
 
 .img-logo {
+  position: absolute;           
+  left: 20px;                    
   height: 10em;
-	display: block;
-  margin: auto;
 }
 
+.titulo{
+  
+  font-size: 6em;
+  font-weight: 500;
+  margin-top: 40px;
+
+}
 
 h2 {
-  color: #EBE645;
+  color: #FF2E92;
   font-size: 1.875em;
   text-align: center;
   margin: 1.25em 0em;
@@ -43,26 +50,29 @@ header .search {
   width: 60%;
   height: 2.5em;
   line-height: 2.5em;
-  background: white;
+  background: #005CFF;
   padding: 0 1.25em;
   border-radius: 0.625em;
   border: none;
   font-size: 0.9375em;
   margin: 1.25em 0em;
-  
+  color: rgb(255, 255, 255);
 }
 
 
 .search:hover {
-  border: 0.125em solid rgb(220, 243, 10);
+  border: 0.125em solid rgb(21, 201, 30);
   cursor: pointer;
+}
+.search::placeholder {
+  color: #ffffff; 
 }
 
 .bar-container {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  background:  rgb(18, 194, 170);
+  background:  #0A0A0A;
   border-radius: 0.3125em;
   height: auto;
   width: 100%;
@@ -75,10 +85,12 @@ header .search {
   align-items: center;
   text-align: center;
   border: none;
-  background-color: rgb(18, 194, 170);
+  background-color: #FF2E92;
   padding: 0.625em;
   font-size: 0.9375em;
   margin:auto;
+  border-radius: 10px;
+  color: white;
 }
 
 .select-carta {
@@ -86,10 +98,12 @@ header .search {
   align-items: center;
   text-align: center;
   border: none;
-  background-color: rgb(18, 194, 170);
+  background-color: #FF2E92;
   padding: 0.625em;
   font-size: 0.9375em;
   margin:auto;
+  color: white;
+  border-radius: 10px;
 }
 
 .select-gamer {
@@ -97,10 +111,12 @@ header .search {
   align-items: center;
   text-align: center;
   border: none;
-  background-color: rgb(18, 194, 170);
+  background-color: #FF2E92;
   padding: 0.625em;
   font-size: 0.9375em;
   margin:auto;
+  color: white;
+  border-radius: 10px;
 }
 
 .registrate {
@@ -108,30 +124,22 @@ header .search {
   align-items: center;
   text-align: center;
   border: none;
-  background-color: rgb(18, 194, 170);
+  background-color: #FF2E92;
   padding: 0.625em;
   font-size: 0.9375em;
   margin:auto;
   cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
 
 }
 
-.volver {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  border: none;
-  background-color: rgb(18, 194, 170);
-  padding: 0.625em;
-  font-size: 0.9375em;
-  margin:auto;
-  cursor: pointer;
 
-}
 
 .registrate:hover { 
   cursor: pointer; 
-  border: 0.125em solid rgb(226, 235, 145); 
+  border: 0.125em solid rgb(23, 223, 16); 
    
 }
 
@@ -148,7 +156,7 @@ header .search {
 .card {
   width: 11.25em;
   height: 13.75em;
-  background: rgba(255, 211, 117, 0.884);
+  background: #FFFF33;
   border-radius: 0.625em;
   margin-top: 1.25em;
   position: relative;
@@ -159,7 +167,7 @@ header .search {
 
 .card:hover { 
   cursor: pointer; 
-  border: 0.125em solid rgb(235, 189, 145); 
+  border: 0.125em solid rgb(124, 0, 182); 
   transform: rotateY(180deg); 
 }
 
@@ -180,9 +188,10 @@ footer {
   margin-top: 1em;         
   padding: 0.75em 0;       
   color: rgb(15, 15, 15);
-  background-color: #07b8af;
+  background-color: #0A0A0A;
   text-align: center;
-  opacity: 0.7;            
+  opacity: 0.7;   
+  color:white;         
 }
 
 
@@ -204,4 +213,112 @@ footer {
   body {
     font-size: 0.75em;
   }
+}
+
+
+.form-content {
+  width: 100%;
+  max-width: 450px;
+  background-color: #0A0A0A;
+  padding: 50px 60px 70px;
+  text-align: center;
+  border-radius: 25px;
+  margin: 50px auto;
+}
+
+/* Título */
+.form-content h1 {
+  font-size: 30px;
+  margin-bottom: 60px;
+  color: #FF2E92;
+  position: relative;
+}
+
+.form-content h1:after {
+  content: '';
+  width: 30px;
+  height: 4px;
+  border-radius: 3px;
+  background: #FF2E92;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 3s;
+}
+
+/* Grupo de inputs */
+.input-group {
+  height: 250px;
+}
+
+/* Campo individual */
+.input-field {
+  background-color: #ffffff;
+  margin: 10px 0 15px 0; /* arriba, derecha, abajo, izquierda */
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  transition: max-height 0.5s;
+  overflow: hidden;
+  color: rgb(255, 255, 255);
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: none;
+  padding: 18px 15px;
+  color: black;
+}
+
+
+
+
+.btn-field {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#signUp {
+    flex-basis: 48%;
+    font-size: 16px;
+    background-color: #005CFF; /* mismo color que .volver */
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Botón volver */
+.volver {
+  flex-basis: 48%;
+  font-size: 16px;
+  background-color: #FF2E92;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+    
+}
+
+.volver:hover {
+  background-color: #ff81f9;
+}
+
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+  padding: 5px 10px 10px;
 }

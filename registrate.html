@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>GAMER</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="./img/icono.png" type="image/x-icon">
+  <link rel="icon" href="./img/unnamed.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,47 +16,49 @@
 <body>
      <div class="container">
           <header>
-                <img src="aca va el logo" class="img-logo"> 
-                 <h2>¡ GAMER !</h2>                             
-                    <form action="">
-                      <input type="text" name="search" autocomplete="off" placeholder="Busca tu favorito" class="search" id="search">
-                    </form>
+                <img src="img/unnamed.png" class="img-logo"> 
+                 <h2 class="titulo">GAMER !!!</h2>                             
+                    
            </header>    
-          <main>
-             <section>
-            <div class="bar-container" id="bar-container">
-                  <select name="selectJuego" id="select-juego" class="select-juego">
-                    <option value="juego">JUEGOS DE MESA</option>
-                    <option value="familiar">FAMILIAR</option>
-                    <option value="infantil">INFANTIL</option>
-                    <option value="experto">EXPERTO</option>
-                    <option value="estrategia">ESTRATEGIA</option>
-                    <option value="aventura">AVENTURA</option>
-                    
-                  </select>    
-                  <select name="selectCarta" id="select-carta" class="select-carta">
-                    <option value="carta">JUEGO DE CARTAS</option>
-                    <option value="pokemon">POKEMON</option>
-                    <option value="Magic">MAGIC</option>
-                    <option value="unknown">LOOP HERO</option>
-                  </select>    
-                  <select name="selectgamer" id="select-gamer" class="select-gamer">
-                    <option value="gamer">JUEGO GAMER</option>
-                    <option value="g1">NO CACHO CRISTIAN</option>
-                    <option value="g2">NO CACHO CRISTIAN</option>
-                    <option value="g3">NO CACHO CRISTIAN</option>
-                    <option value="g4">NO CACHO CRISTIAN</option>
-                    <option value="g5">NO CACHO CRISTIAN</option>
-                  </select>
-                  <a class="volver" id="btn-volver" href="index.html">Volver🏠</a>
-            </div>            
-           <section>   
+         
           
-                    
-                
-            
 
-        </main>    
+        <div class="form-content">
+            <h1 id="title">REGISTRATE</h1>
+            <form>
+
+                <div class="input-grupo">
+
+                    <div class="input-field" id="nameInput">
+                        <input id="nombre" type="text" placeholder="Nombre">
+                        <small class="error" id="nombreError"></small>
+
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="correo" placeholder="correo Electronico">
+                        <small class="error" id="correoError"></small>
+
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="contraseña" placeholder="Contraseña">
+                        <small class="error" id="contraseñaError"></small>
+
+                    </div>
+                    
+                </div>
+                <div class="btn-field">
+                    <button id="signUp" type="button">Registro</button>
+                    <a class="volver" id="btn-volver" href="index.html">Volver🏠</a>
+
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+
+
+
       </div> 
        <footer class="footer">
             <div class="contenedor-footer">
@@ -65,11 +67,12 @@
                     <p>Somos una tienda en linea dedicada a la venta de productos de alta calidad. Nuestro objetivo es brindar a nuestros clientes la mejor experiencia de compra posible.</p>
                 </div>
                 <div class="footer-seccion">
-                <h3>Contacto</h3>
+                  <h3>Contacto</h3>
                     <ul>
                         <li><i class="fa-solid fa-phone"></i> +123 456 7890</li>
                         <li><i class="fa-solid fa-envelope"></i>
-                
+                      </ul>    
+                </div>
         </footer>
     <script src="main.js" type="module"></script>
 </body>
