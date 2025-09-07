@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url(img/fondo.jpg) center;
+  background: url(img/ghil.jpg) center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -49,6 +49,7 @@ header .search {
   border: none;
   font-size: 0.9375em;
   margin: 1.25em 0em;
+  
 }
 
 
@@ -61,11 +62,12 @@ header .search {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  background: rgb(18, 194, 170);
+  background:  rgb(18, 194, 170);
   border-radius: 0.3125em;
   height: auto;
   width: 100%;
-	padding: 1.25em;
+  padding: 1.25em;
+    
 }
 
 .select-juego {
@@ -101,6 +103,39 @@ header .search {
   margin:auto;
 }
 
+.registrate {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: none;
+  background-color: rgb(18, 194, 170);
+  padding: 0.625em;
+  font-size: 0.9375em;
+  margin:auto;
+  cursor: pointer;
+
+}
+
+.volver {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: none;
+  background-color: rgb(18, 194, 170);
+  padding: 0.625em;
+  font-size: 0.9375em;
+  margin:auto;
+  cursor: pointer;
+
+}
+
+.registrate:hover { 
+  cursor: pointer; 
+  border: 0.125em solid rgb(226, 235, 145); 
+   
+}
+
+
 
 
 .board {
@@ -113,7 +148,7 @@ header .search {
 .card {
   width: 11.25em;
   height: 13.75em;
-  background: rgb(18, 194, 170);
+  background: rgba(255, 211, 117, 0.884);
   border-radius: 0.625em;
   margin-top: 1.25em;
   position: relative;
@@ -124,7 +159,7 @@ header .search {
 
 .card:hover { 
   cursor: pointer; 
-  border: 0.125em solid rgb(226, 235, 145); 
+  border: 0.125em solid rgb(235, 189, 145); 
   transform: rotateY(180deg); 
 }
 
