@@ -1,18 +1,18 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var nombreInput = document.getElementById('nombre');
-    var correoInput = document.getElementById('correo');
-    var contraseñaInput = document.getElementById('contraseña');
-    var edadInput = document.getElementById('edad');
-    var signUpBtn = document.getElementById('signUp');
+    const nombreInput = document.getElementById('nombre');
+    const correoInput = document.getElementById('correo');
+    const contraseñaInput = document.getElementById('contraseña');
+    const edadInput = document.getElementById('edad');
+    const signUpBtn = document.getElementById('signUp');
 
 
-    var nombreError = document.getElementById('nombreError');
-    var correoError = document.getElementById('correoError');
-    var contraseñaError = document.getElementById('contraseñaError');
-    var edadError = document.getElementById('edadError');
+    const nombreError = document.getElementById('nombreError');
+    const correoError = document.getElementById('correoError');
+    const contraseñaError = document.getElementById('contraseñaError');
+    const edadError = document.getElementById('edadError');
 
     signUpBtn.addEventListener('click', function () {
-        // Limpiar errores anteriores
+        
         limpiarErrores();
 
         const nombre = nombreInput.value.trim();
@@ -22,13 +22,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
         let hayErrores = false;
 
-        // Validación del nombre
+       
         if (nombre === '') {
             nombreError.innerText = 'El nombre es obligatorio.';
             hayErrores = true;
         }
 
-        // Validación del correo
+        
         if (correo === '') {
             correoError.innerText = 'El correo electrónico es obligatorio.';
             hayErrores = true;
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
             hayErrores = true;
         }
 
-        // Validación de la contraseña
+        
         if (contraseña === '') {
             contraseñaError.innerText = 'La contraseña es obligatoria.';
             hayErrores = true;
@@ -56,13 +56,13 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         if (!hayErrores) {
-            // Preparar el mensaje de registro
+            
             let mensaje = 'Registro exitoso';
             if (correo.endsWith('@duocuc.cl')) {
             mensaje += '\n¡Obtienes un 20% de descuento de por vida por tu correo @duocuc.cl!';
             }
-            alert(mensaje); // Mostrar solo un alert
-            window.location.href = 'index.html'; // Redirigir después del alert
+            alert(mensaje); 
+            window.location.href = 'index.html'; 
         }
     });
 
@@ -80,5 +80,6 @@ document.addEventListener('DOMContentLoaded', function () {
         nombreError.innerText = '';
         correoError.innerText = '';
         contraseñaError.innerText = '';
+        edadError.innerText='';
     }
 });
