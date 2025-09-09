@@ -81,5 +81,6 @@ document.addEventListener('DOMContentLoaded', function () {
         correoError.innerText = '';
         contraseñaError.innerText = '';
         edadError.innerText='';
+        
     }
 });
