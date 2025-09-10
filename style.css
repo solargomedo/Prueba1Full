@@ -19,9 +19,9 @@ body {
 }
 
 .img-logo {
-  position: absolute;           
-  left: 20px;                    
-  height: 10em;
+  position: relative;         
+  height: 5em;                
+  margin-right: 10px;
 }
 
 .titulo{
@@ -128,7 +128,7 @@ header .search {
   padding: 0.625em;
   font-size: 0.9375em;
   margin:auto;
-  cursor: pointer;
+  border: 0.125em solid rgb(23, 223, 16); 
   color: white;
   border-radius: 10px;
   text-decoration: none;
@@ -137,11 +137,6 @@ header .search {
 
 
 
-.registrate:hover { 
-  cursor: pointer; 
-  border: 0.125em solid rgb(23, 223, 16); 
-   
-}
 
 
 .board {
@@ -307,6 +302,64 @@ input {
   padding: 5px 10px 10px;
 }
 
+
+/*tarjetas de compra*/
+
+
+.card-compra {
+  width: 11.25em;
+  height: 13.75em;
+  background: #444441;
+  border-radius: 0.625em;
+  margin-top: 1.25em;
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg); 
+  box-sizing: border-box; 
+  border: 0.125em solid rgb(23, 223, 16); 
+  cursor: pointer;
+  transition: transform 0.15s ease;
+  
+}
+
+.card-compra:hover {
+    transform: scale(1.2); /* aumenta un 10% el tamaño */
+  }
+
+.card-compra {
+  overflow: hidden;
+}
+
+
+
+.ropa{
+  text-align: left;
+  text-decoration: underline;
+  
+}
+
+.card-compra-body img {
+  width: 100%;       
+  height: 13.75em;      
+  border-radius: 0.625em; 
+  display: block;    
+  margin: 0 auto;    
+  object-fit: cover;
+}
+
+
+.card-title {
+  font-size: -2em;
+  color: #e9e7e7; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+ 
+}
+
+
+
+
+
 @media (max-width: 1200px) {
   body {
     font-size: 0.875em;
@@ -319,7 +372,7 @@ input {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   body {
     font-size: 0.75em;
   }
