@@ -33,7 +33,7 @@ body {
 .header-left {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 7px;
 }
 
 .img-logo {
@@ -44,12 +44,22 @@ body {
   font-size: 2.5em;
   font-weight: 600;
   color: #FF2E92;
+  justify-content: center;
+  
 }
-
+.titulo2 {
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #FF2E92;
+  justify-content: center;
+  margin-left: 230px;
+}
 .header-center {
   flex: 1;
   display: flex;
-  justify-content: center;
+  margin-left: 70px;
+  
+  
 }
 
 header form {
@@ -110,6 +120,7 @@ header .search {
   height: auto;
   width: 100%;
   padding: 1.25em;
+  
     
 }
 
@@ -192,7 +203,7 @@ header .search {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  margin-top: 3.125em;
+  margin-top: 5px;
 }
 
 
@@ -200,7 +211,7 @@ header .search {
 .card-compra {
   width: 11.25em;
   height: 13.75em;
-  background: #444441;
+  background: #404040;
   border-radius: 0.625em;
   margin-top: 1.25em;
   position: relative;
@@ -224,14 +235,19 @@ header .search {
 
 
 
-.ropa{
+.ropa {
   text-align: left;
-  text-decoration: NONE;
-  font-size: 2.5em;
+  text-decoration: none;
+  font-size: 1.5em;
   font-weight: 600;
-  color: #FF2E92;
-  
-  
+  color: #ffffff;
+  background-color: #FF2E92;   
+  display: inline-block;    
+  padding: 8px 15px;      
+  border-radius: 0.125em;
+  border: 1px solid #15ff00;
+  margin-top: 40px;       
+       
 }
 
 .card-compra-body img {
