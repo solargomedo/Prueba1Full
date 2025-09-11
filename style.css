@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url(img/1000059933.png) center;
+  background: url(img/img1.jpg) center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -19,17 +19,19 @@ body {
 }
 
 .img-logo {
-  position: relative;         
-  height: 5em;                
-  margin-right: 10px;
+  height: 10em;
+	display: block;
+  margin: auto;
 }
-
-.titulo{
-  
+.titulo {
   font-size: 6em;
-  font-weight: 500;
+  font-weight: 700;
   margin-top: 40px;
-
+  text-align: center;
+  background: linear-gradient(90deg, #ff2ec0, #f8b0e6);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
 }
 
 h2 {
@@ -50,13 +52,13 @@ header .search {
   width: 60%;
   height: 2.5em;
   line-height: 2.5em;
-  background: #005CFF;
+  background: rgb(134, 218, 241);
   padding: 0 1.25em;
   border-radius: 0.625em;
   border: none;
   font-size: 0.9375em;
   margin: 1.25em 0em;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 
@@ -65,7 +67,7 @@ header .search {
   cursor: pointer;
 }
 .search::placeholder {
-  color: #ffffff; 
+  color: #000000; 
 }
 
 .bar-container {
@@ -128,12 +130,30 @@ header .search {
   padding: 0.625em;
   font-size: 0.9375em;
   margin:auto;
-  border: 0.125em solid rgb(23, 223, 16); 
-  color: white;
   border-radius: 10px;
-  text-decoration: none;
-
+  color: rgb(255, 255, 255);
+  
 }
+
+
+
+.catalogo{ 
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: none;
+  background-color: #FF2E92;
+  padding: 0.625em;
+  font-size: 0.9375em;
+  margin:auto;
+  border-radius: 10px;
+  color: white;
+}
+
+.home{ 
+  color: thistle;
+}
+
 
 
 
@@ -157,15 +177,12 @@ header .search {
   transform-style: preserve-3d;
   transform: rotateY(0deg); 
   box-sizing: border-box; 
-}
-
-.card {
   overflow: hidden;
 }
 
 .card:hover { 
   cursor: pointer; 
-  border: 0.125em solid rgb(23, 223, 16); 
+  border: 0.125em solid #50f0ff; 
   transform: rotateY(180deg); 
 }
 
@@ -317,7 +334,7 @@ input {
   transform-style: preserve-3d;
   transform: rotateY(0deg); 
   box-sizing: border-box; 
-  border: 0.125em solid rgb(23, 223, 16); 
+  border: 0.125em solid #50f0ff ; 
   cursor: pointer;
   transition: transform 0.15s ease;
   
