@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
             mensaje += '\n¡Obtienes un 20% de descuento de por vida por tu correo @duocuc.cl!';
             }
             alert(mensaje); 
-            window.location.href = 'compras.html'; 
+            window.location.href = 'index-postRegistro.html'; 
         }
     });
 
@@ -83,4 +83,5 @@ document.addEventListener('DOMContentLoaded', function () {
         edadError.innerText='';
         
     }
+    
 });

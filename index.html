@@ -14,55 +14,172 @@
 
 </head>
 
+
 <body>
   <div class="container">
-    <header>          
-      <img src="img/unnamed.png" class="img-logo">
-      <h2 class="titulo">LEVEL-UP</h2>
-      <form action="">
-        <input type="text" name="search" autocomplete="off" placeholder="Busca tu favorito" class="search" id="search">
-      </form>
+    <header class="header">
+      <div class="header-left">
+        <img src="img/unnamed.png" class="img-logo" alt="Logo LEVEL-UP">
+        <h1 class="titulo">LEVEL-UP</h1>
+      </div>
+      <div class="header-center">
+        <form action="">
+          <input type="text" name="search" autocomplete="off" placeholder="Busca tu favorito" class="search" id="search">
+        </form>
+      </div>
+      <div class="header-right">
+        <a class="registrate" id="btn-registrate" href="registrate.html">REGÍSTRATE</a>
+      </div>
     </header>
     <main>
       <section>
+        
         <div class="bar-container" id="bar-container">
           <select name="selectJuego" id="select-juego" class="select-juego">
-            <option value="juego">JUEGOS DE MESA</option>
-            <option value="familiar">FAMILIAR</option>
-            <option value="infantil">INFANTIL</option>
-            <option value="experto">EXPERTO</option>
-            <option value="estrategia">ESTRATEGIA</option>
-            <option value="aventura">AVENTURA</option>
+            <option value="#juego">JUEGOS DE MESA</option>
+            <option value="#juego">MONOPOLY</option>
+            <option value="#juego">CATAN</option>
+            <option value="#juego">CARCASSONNE</option>
+            <option value="#juego">PICTIONARY</option>
+            <option value="#juego">THREE-DRAGON ANTE</option>
 
           </select>
           <select name="selectCarta" id="select-carta" class="select-carta">
-            <option value="carta">JUEGO DE CARTAS</option>
-            <option value="pokemon">POKEMON</option>
-            <option value="Magic">MAGIC</option>
-            <option value="unknown">LOOP HERO</option>
+            <option value="#carta">JUEGO DE CARTAS</option>
+            <option value="#carta">POKEMON</option>
+            <option value="#carta">MAGIC</option>
+            <option value="#carta">VIRUS!</option>
+            <option value="#carta">UNO</option>
+            <option value="#carta">¡TOMA 6!</option>
           </select>
           <select name="selectgamer" id="select-gamer" class="select-gamer">
-            <option value="gamer">JUEGO GAMER</option>
-            <option value="g1">FORTNITE</option>
-            <option value="g2">VALORANT</option>
-            <option value="g3">MINECRAFT</option>
-            <option value="g4">LEAGUE OF LEGEND</option>
-            <option value="g5">RUST</option>
+            <option value="#gamer">JUEGO GAMER</option>
+            <option value="#gamer">FORTNITE</option>
+            <option value="#gamer">VALORANT</option>
+            <option value="#gamer">MINECRAFT</option>
+            <option value="#gamer">LEAGUE OF LEGEND</option>
+            <option value="#gamer">RUST</option>
           </select>
-          <a class="registrate" id="btn-registrate" href="registrate.html">REGISTRATE</a>
+          <select name="selectropa" id="select-ropa" class="select-ropa">
+            <option value="#ropa">ROPA</option>
+            <option value="#ropa">GORRA NEGRA</option>
+            <option value="#ropa">GORRA MORADA</option>
+            <option value="#ropa">POLERA NARANJA</option>
+            <option value="#ropa">POLERON NEGRO</option>
+            <option value="#ropa">POLERA NEGRA</option>
+          </select>
+          <select name="selectperifericos" id="select-perifericos" class="select-perifericos">
+            <option value="#perifericos">PERIFERICOS</option>
+            <option value="#teclados">TECLADOS</option>
+            <option value="#mouses">MOUSES</option>
+            <option value="#audifonos">AUDIFONOS</option>
+            <option value="#monitores">MONITORES</option>
+            <option value="#mousepads">MOUSEPADS</option>
+          </select>
           
         </div>
-        <section>
+        <section id="juego" >
+          <H2 class="ropa">JUEGOS DE MESA</H2>
+          
           <div class="board" id="board">
-            <div class="card">
+            <div class="card-compra">
               <div class="card-body">
-                <h5 class="card-title"></h5>
-                <h6 class="card-subtitle"></h6>
-                <img src="img/LOGOS VIDEOJUEGOS/LEAGUE OF LEGEND.jpg" alt="" srcset="">
+                <img src="img/COSAS PARA VENDER/JUEGOS DE MESA/1000060136.jpg" alt="" srcset="">
                 <a href="#" class="card-link"></a>
               </div>
             </div>
-            <div class="card">
+
+            <div class="card-compra">
+              <div class="card-body">
+                <img src="img/COSAS PARA VENDER/JUEGOS DE MESA/1000060137.jpg" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+         
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title">$15.990  🤍   🛒</h5>
+                <img src="img/COSAS PARA VENDER/JUEGOS DE MESA/1000060138.jpg" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/JUEGOS DE MESA/1000060139.jpg" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/JUEGOS DE MESA/1000060140.jpg" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <section id="carta">
+          <H2 class="ropa">JUEGOS DE CARTAS</H2>
+          
+          <div class="board" id="board">
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/JUEGOS DE CARTAS/1000060142.jpg" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+            
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/JUEGOS DE CARTAS/1000060143.jpg" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+         
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/JUEGOS DE CARTAS/1000060144.jpg" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/JUEGOS DE CARTAS/1000060145.jpg" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/JUEGOS DE CARTAS/1000060146.jpg" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <section id="gamer">
+          <H2 class="ropa" >JUEGOS GAMER</H2>
+          
+          <div class="board" id="board">
+            <div class="card-compra">
               <div class="card-body">
                 <h5 class="card-title"></h5>
                 <h6 class="card-subtitle"></h6>
@@ -70,23 +187,8 @@
                 <a href="#" class="card-link"></a>
               </div>
             </div>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title"></h5>
-                <h6 class="card-subtitle"></h6>
-                <img src="img/LOGOS VIDEOJUEGOS/MINECRAFT.jpg" alt="" srcset="">
-                <a href="#" class="card-link"></a>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title"></h5>
-                <h6 class="card-subtitle"></h6>
-                <img src="img/LOGOS VIDEOJUEGOS/RUST.jpg" alt="" srcset="">
-                <a href="#" class="card-link"></a>
-              </div>
-            </div>
-             <div class="card">
+            
+            <div class="card-compra">
               <div class="card-body">
                 <h5 class="card-title"></h5>
                 <h6 class="card-subtitle"></h6>
@@ -94,46 +196,333 @@
                 <a href="#" class="card-link"></a>
               </div>
             </div>
-            <div class="card">
+         
+            <div class="card-compra">
               <div class="card-body">
                 <h5 class="card-title"></h5>
                 <h6 class="card-subtitle"></h6>
-                <img src="img/LOGOS VIDEOJUEGOS/pokemon.webp" alt="" srcset="">
+                <img src="img/LOGOS VIDEOJUEGOS/MINECRAFT.jpg" alt="" srcset="">
                 <a href="#" class="card-link"></a>
               </div>
             </div>
-            <div class="card">
+
+            <div class="card-compra">
               <div class="card-body">
                 <h5 class="card-title"></h5>
                 <h6 class="card-subtitle"></h6>
-                <img src="img/LOGOS VIDEOJUEGOS/gato-explo.jfif" alt="" srcset="">
+                <img src="img/LOGOS VIDEOJUEGOS/RUST.jpg" alt="" srcset="">
                 <a href="#" class="card-link"></a>
               </div>
             </div>
-            <div class="card">
-      <div class="card-body">
-        <h5 class="card-title"></h5>
-        <h6 class="card-subtitle"></h6>
-        <img src="img/LOGOS VIDEOJUEGOS/VALORANT.jpg" alt="">
-        <a href="#" class="card-link"></a>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title"></h5>
-        <h6 class="card-subtitle"></h6>
-        <img src="img/LOGOS VIDEOJUEGOS/moradamaldita.jfif" alt="">
-        <a href="#" class="card-link"></a>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title"></h5>
-        <h6 class="card-subtitle"></h6>
-        <img src="img/LOGOS VIDEOJUEGOS/magic.png" alt="">
-        <a href="#" class="card-link"></a>
-      </div>
-    </div>
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/LOGOS VIDEOJUEGOS/VALORANT.jpg" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <section id="ropa">
+          <H2 class="ropa">ROPA</H2>
+          
+          <div class="board" id="board">
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/ROPA/GORRA MUTANT UNLIMIT MORADA.webp" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+            
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/ROPA/GORRA MUTANT UNLIMIT NEGRA.webp" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+         
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/ROPA/POLERA FNATIC CREST TEE ORANGE.webp" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/ROPA/Polera-Fnatic-Crest-Black-Mutant-28425512222789 (1).webp" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/ROPA/POLERON FNATIC CREST HOODIE BLACK.webp" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        
+        <section id="teclados">
+          <H2 class="ropa">TECLADOS</H2>
+          
+          <div class="board" id="board">
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/TECLADOS/Aec01aaecb6a6497db0bd1b9b0fe224772.png_960x960.png_.avif" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+            
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/TECLADOS/S48142c16f730460cb0cd5b9a3fd29869Y.jpg_960x960q75.jpg_.avif" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+         
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/TECLADOS/S4f4322e29d2c4968adbc9ac6fcaf810aB.jpg_960x960q75.jpg_.avif" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/TECLADOS/S55f85b63432142b6a78697d073ac12c8d.jpg_960x960q75.jpg_.avif" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/TECLADOS/Se64496bc23aa486cb767c1b53dcefa2dB.png_960x960.png_.avif" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <section id="mouses">
+          <H2 class="ropa">MOUSES</H2>
+          
+          <div class="board" id="board">
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/MOUSES/ATK BLAZING SKY X1 ULTIMATE.webp" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+            
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/MOUSES/ATK BLAZING SKY Z1 ULTRA.webp" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+         
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/MOUSES/ATK VXE MAD R MAYOR+.webp" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/MOUSES/WL BEAST X MINI PRO.webp" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/MOUSES/pwnage-Photoroom_1.webp " alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <section id="audifonos">
+          <H2 class="ropa">AUDIFONOS</H2>
+          
+          <div class="board" id="board">
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/AUDIFONOS/atkM1-Photoroom-Photoroom_1.webp" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+            
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/AUDIFONOS/Aud-fonos-Gamer-MCHOSE-G9-Pro-Wireless-White-Mutant-28085867020357.webp" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+         
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/AUDIFONOS/Aud-fonos-Gamer-MCHOSE-S9-Pro-White-Mutant-28085847654469.webp" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/AUDIFONOS/Aud-fonos-Gamer-MCHOSE-V9-Pro-Black-Mutant-28085925937221.webp" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/AUDIFONOS/Aud-fonos-Gamer-MCHOSE-V9-Pro-White-Mutant-28085905784901.webp" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <section id="monitores">
+          <H2 class="ropa">MONITORES</H2>
+          
+          <div class="board" id="board">
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/MONITORES/_2tv9172_9607819a_thumbnail_512.jpg" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+            
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/MONITORES/1747062476856-4d9099285eef82d7a1b90d9aee88b632df2da6f3_cb1be7bb_thumbnail_51.jpg" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+         
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/MONITORES/1748639419146-b_da6fb64d_thumbnail_512.png" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/MONITORES/1748639492634-b8_1d5a39b8_thumbnail_512.png" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/MONITORES/g__wm41p_deb94d96_thumbnail_512.jpg" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <section id="mousepads" >
+          <H2 class="ropa">MOUSEPADS</H2>
+          
+          <div class="board" id="board">
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/MOUSEPADS/1111-9_ae34f474-b8eb-4e31-970c-a51ece9fff0a.webp" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+            
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/MOUSEPADS/hyo-r-top_1_-Photoroom_1.webp" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+         
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/MOUSEPADS/hyo-r-top_1_-Photoroom_3.webp" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/MOUSEPADS/hyo-r-top_1_-Photoroom_5.webp" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+            <div class="card-compra">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle"></h6>
+                <img src="img/COSAS PARA VENDER/MOUSEPADS/QISHA-1-copia-Photoroom.jpg" alt="" srcset="">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
 
           </div>
         </section>
@@ -155,6 +544,7 @@
 
   </footer>
   <script src="main.js" type="module"></script>
+  <script src="nav.js" type="module"></script>
 </body>
 
 </html>
