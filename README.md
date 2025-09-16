@@ -5,7 +5,7 @@
 * [1. Resumen del proyecto](#1-resumen-del-proyecto)
 * https://solargomedo.github.io/Prueba1Full/
 
-* <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/16b8142a-8886-448e-a971-2b183be33eee" />
+* <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/16b8142a-8886-448e-a971-2b183be33eee" />
 
 ##debemos seguir completando el indice 
 
