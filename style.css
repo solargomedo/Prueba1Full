@@ -234,7 +234,6 @@ header .search {
 }
 
 
-
 .ropa {
   text-align: left;
   text-decoration: none;
@@ -247,7 +246,6 @@ header .search {
   border-radius: 0.125em;
   border: 1px solid #15ff00;
   margin-top: 40px;       
-       
 }
 
 .card-compra-body img {
@@ -423,49 +421,108 @@ input {
 /* Tablets */
 
 @media (max-width: 768px) {
-  .bar-container {
+ 
+  header form {
+    width: 100% !important;      
+    max-width: none !important;  
+    display: flex;
     flex-direction: column;
-    align-items: center;   
-    gap: 10px;              
-    padding: 1em;           
+    margin-right: 5px;      
+    gap: 15px;                   
   }
 
- 
-  .bar-container .select-juego,
-  .bar-container .select-carta,
-  .bar-container .select-gamer,
-  .bar-container .select-ropa,
-  .bar-container .select-perifericos {
-    width: 90%;   
-    margin: 5px 0; 
+
+  header .search {
+    width: 100% !important;      
+    max-width: none !important;  
+    padding: 0.625em 1.25em;
+    box-sizing: border-box;
+
+  }
+
+  header .registrate {
     text-align: center;
+    width: auto !important;     
+    min-width: 120px;
+    padding: 0.5em 1em;
   }
 }
 
 
+
 /* Celulares */
 @media (max-width: 450px) {
-  .titulo, .titulo2 {
-    font-size: 1.5em;
+
+  .header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .titulo2 {
+    margin-left: 0;
+  }
+
+  .header-center {
+    margin-left: 0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .search {
+    width: 100%;
     text-align: center;
   }
 
   .registrate {
-    font-size: 0.8em;
-    padding: 0.5em 1em;
+    width: 100%; 
+    min-width: auto;
+    text-align: center;
   }
 
   .bar-container {
     flex-direction: column;
     gap: 10px;
+    width: 100%;
+    padding: 1em;
   }
 
-  .select-juego,
-  .select-carta,
-  .select-gamer,
-  .select-ropa,
-  .select-perifericos {
+  .bar-container select {
     width: 100%;
-    margin: 5px 0;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .ropa {
+    display: block;
+    text-align: center;
+    margin: 25px 0 15px 0; 
+    font-size: 1.4em;      
+    line-height: 1.4em;
+  }
+
+  
+  .board {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .card-compra {
+    width: 90%;       
+    max-width: 300px; 
+  }
+
+  .card-compra-body img {
+    width: 100%;
+    height: auto;
   }
 }
+
